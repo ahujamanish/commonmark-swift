@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
 
-  s.source       = { :git => "https://github.com/benoit-fueled/commonmark-swift.git", :branch => "Pod-Swift3" }
+  s.source       = { :git => "https://github.com/ahujamanish/commonmark-swift.git", :branch => "swift5" }
   s.source_files  = "CommonMark/*.swift", "CommonMark/CommonMark.h"
 
   s.dependency "cmark", '0.24.0'
